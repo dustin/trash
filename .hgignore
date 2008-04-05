@@ -1,7 +1,0 @@
-(^|/)\_darcs($|/)
-(^|/)\.hg($|/)
-(^|/)\.hgtags($|/)
-^trash.log$
-^trash.state$
-^trash.state.old$
-^trash.state.journal$
