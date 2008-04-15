@@ -4,7 +4,7 @@
 #import <libgen.h>
 
 int main (int argc, const char * argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
 	NSString *pathPrefix=@"./";
 
@@ -34,6 +34,6 @@ int main (int argc, const char * argv[]) {
 		[files release];
 	}
 
-    [pool release];
-    return 0;
+	[pool release];
+	return 0;
 }
