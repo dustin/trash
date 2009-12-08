@@ -13,30 +13,6 @@
 		DAF01A0A080B995E00C55E67 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF01A09080B995E00C55E67 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		014CEA4F0018CE4811CA2923 /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		014CEA500018CE4811CA2923 /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -130,13 +106,6 @@
 			);
 			buildRules = (
 			);
-			buildSettings = {
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = trash_Prefix.pch;
-				INSTALL_PATH = "$(HOME)/bin";
-				PRODUCT_NAME = trash;
-			};
 			dependencies = (
 			);
 			name = trash;
@@ -151,15 +120,11 @@
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = DA16D93709D91D4F0058924D /* Build configuration list for PBXProject "trash" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				014CEA4F0018CE4811CA2923 /* Development */,
-				014CEA500018CE4811CA2923 /* Deployment */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 08FB7794FE84155DC02AAC07 /* trash */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8DD76F960486AA7600D96B5E /* trash */,
 			);
