@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -119,9 +119,16 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
 			buildConfigurationList = DA16D93709D91D4F0058924D /* Build configuration list for PBXProject "trash" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* trash */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,36 +194,24 @@
 		DA16D93809D91D4F0058924D /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
 			};
 			name = Development;
 		};
 		DA16D93909D91D4F0058924D /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
 			};
 			name = Deployment;
 		};
 		DA16D93A09D91D4F0058924D /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
 			};
 			name = Default;
 		};
